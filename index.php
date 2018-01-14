@@ -68,6 +68,14 @@
     </div>
 </div>
 
+<footer>
+    <div class="container">
+        <ul class="footer_menu">
+            <li>&copy; <?php echo date("Y");?> DGBFiP</li>
+        </ul>
+    </div>
+</footer>
+
 
 
 

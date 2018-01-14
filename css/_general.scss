@@ -13,5 +13,23 @@
   bottom: 0;
 }
 body{
+  position: relative;
+  padding-bottom: 60px;
+  min-height: 100%;
   font-family: $font1 !important;
+}
+
+footer{
+  position: absolute;
+  padding: 15px 0 15px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: $color_primary;
+}
+.footer_menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
