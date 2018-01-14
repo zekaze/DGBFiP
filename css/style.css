@@ -16,7 +16,8 @@ body {
   position: relative;
   padding-bottom: 60px;
   min-height: 100%;
-  font-family: "Roboto", sans-serif !important; }
+  font-family: "Roboto", sans-serif !important;
+  background-color: #f2f2f2; }
 
 footer {
   position: absolute;
@@ -31,6 +32,19 @@ footer {
   margin: 0;
   padding: 0;
   color: #fff; }
+
+.h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #177699;
+  margin-bottom: 50px; }
+
+.section {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  border: solid 1px #D5D5D5; }
 
 #enseigne {
   font-size: 19px;
@@ -79,7 +93,8 @@ footer {
 #instructions {
   padding: 15px;
   margin: 20px 0;
-  background-color: #7fcfc6; }
+  background-color: #7fcfc6;
+  border-radius: 3px; }
 
 .form-input {
   display: block; }
@@ -96,10 +111,13 @@ footer {
 
 .submit-button {
   display: inline-block;
+  border-radius: 3px;
+  width: auto;
+  margin: 0 auto;
   background-color: #177699;
   color: #fff;
   border: none;
-  padding: 8px 15px;
-  font-size: 14px; }
+  padding: 8px 60px;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

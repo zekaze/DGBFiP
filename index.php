@@ -18,11 +18,11 @@
     <div class="container">
         <h1 id="enseigne"><small>MINISTÈRE DU BUDGET ET DES COMPTES PUBLICS</small>
             DIRECTION GÉNÉRALE DU BUDGET ET DES FINANCES PUBLIQUES
-            <img height="74" src="img/Sceau-du-Gabon_1.png" alt="sceau du gabon">
+            <img height="74" class="hidden-xs" src="img/Sceau-du-Gabon_1.png" alt="sceau du gabon">
         </h1>
     </div>
 </header>
-<div class="container">
+<div class="container section">
     <div id="main-carousel" class="owl-carousel owl-theme carousel">
         <div class="slide"><span class="id">1</span></div>
         <div class="slide"><span class="id">2</span></div>
@@ -30,28 +30,30 @@
         <div class="slide"><span class="id">4</span></div>
         <div class="slide"><span class="id">5</span></div>
     </div>
-</div>
 
-
-<div class="container">
+    <h2 class="h2">Titre de section</h2>
     <div id="instructions">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor eligendi iste laborum quae quo saepe voluptates? Autem beatae consectetur dicta eaque enim, illo iste, molestias omnis, perferendis sint tenetur!</div>
 
     <div id="formulaire">
         <form action="#">
             <label class="form-input">
-                <span class="input-label">Nom</span>
+                <span class="input-label">Nom de l'agent</span>
                 <input type="text" required>
             </label>
-
-            <label class="form-input">
-                <span class="input-label">Numero de ligne administrative</span>
-                <input type="text" required>
-            </label>
-
-            <label class="form-input">
-                <span class="input-label">Numero de téléphone personnel</span>
-                <input type="text" required>
-            </label>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label class="form-input">
+                        <span class="input-label">Matricule</span>
+                        <input type="text" required>
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <label class="form-input">
+                        <span class="input-label">Contact</span>
+                        <input type="text" required>
+                    </label>
+                </div>
+            </div>
 
             <label class="form-input">
                 <span class="input-label">Nom de direction</span>
@@ -63,7 +65,7 @@
                 </select>
             </label>
 
-            <button class="submit-button">Soumettre</button>
+            <button class="submit-button">Envoyer</button>
         </form>
     </div>
 </div>
