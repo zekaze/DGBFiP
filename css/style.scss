@@ -1,0 +1,56 @@
+@import "variables";
+@import "general";
+@import "mixins";
+
+/*carousel*/
+.carousel{
+  .slide{
+    width: 100%;
+    height: 500px;
+    background-color: #60655b;
+    position: relative;
+  }
+  .id{
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  }
+}
+
+#instructions{
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.form-input{
+  display: block;
+
+  .input-label{
+
+  }
+  input,
+  select{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-weight: normal;
+  }
+}
+.submit-button{
+  display: inline-block;
+  background-color: #0f0f0f;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+}
+
+
+@import "responsive";
