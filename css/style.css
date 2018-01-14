@@ -1,3 +1,6 @@
+*:focus {
+  outline: none; }
+
 .owl-dots {
   margin-top: 0 !important;
   position: absolute;
@@ -9,8 +12,34 @@
   transform: translate(-50%, 0);
   bottom: 0; }
 
-html {
+body {
   font-family: "Roboto", sans-serif !important; }
+
+#enseigne {
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 30px; }
+  #enseigne small {
+    font-size: 17px;
+    color: #177699;
+    display: block; }
+  #enseigne img {
+    position: absolute;
+    right: 0;
+    top: -15px; }
+
+#enseigne:after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 12px;
+  background-color: #00a74d;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 12px #ffdb20,0 24px #006ab0; }
 
 /*carousel*/
 .carousel .slide {
@@ -32,10 +61,14 @@ html {
 
 #instructions {
   padding: 15px;
-  margin-bottom: 20px; }
+  margin: 20px 0;
+  background-color: #7fcfc6; }
 
 .form-input {
   display: block; }
+  .form-input .input-label {
+    color: #177699;
+    text-transform: uppercase; }
   .form-input input,
   .form-input select {
     display: block;
@@ -46,9 +79,10 @@ html {
 
 .submit-button {
   display: inline-block;
-  background-color: #0f0f0f;
+  background-color: #177699;
   color: #fff;
   border: none;
-  padding: 5px 15px; }
+  padding: 8px 15px;
+  font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

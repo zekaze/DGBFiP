@@ -2,6 +2,36 @@
 @import "general";
 @import "mixins";
 
+#enseigne{
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 30px;
+
+  small{
+    font-size: 17px;
+    color: $color_primary;
+    display: block;
+  }
+  img{
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+}
+#enseigne:after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 12px;
+  background-color: #00a74d;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 12px #ffdb20,0 24px #006ab0;
+}
+
 /*carousel*/
 .carousel{
   .slide{
@@ -26,14 +56,16 @@
 
 #instructions{
   padding: 15px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  background-color: $color_secondary;
 }
 
 .form-input{
   display: block;
 
   .input-label{
-
+    color: $color_primary;
+    text-transform: uppercase;
   }
   input,
   select{
@@ -46,10 +78,11 @@
 }
 .submit-button{
   display: inline-block;
-  background-color: #0f0f0f;
+  background-color: $color_primary;
   color: #fff;
   border: none;
-  padding: 5px 15px;
+  padding: 8px 15px;
+  font-size: 14px;
 }
 
 

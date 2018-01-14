@@ -1,3 +1,6 @@
+*:focus{
+  outline: none;
+}
 .owl-dots{
   margin-top: 0 !important;
   position: absolute;
@@ -9,6 +12,6 @@
   transform: translate(-50%, 0);
   bottom: 0;
 }
-html{
+body{
   font-family: $font1 !important;
 }

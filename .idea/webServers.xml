@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9436cbe5-679c-467b-91c0-167c258fade7" name="Formulaire DGBFiP" url="http://ftp.alexandre-kaze.com">
+        <fileTransfer host="ftp.alexandre-kaze.com" port="21" rootFolder="/dgbfip">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

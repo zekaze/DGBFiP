@@ -14,6 +14,14 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <div class="container">
+        <h1 id="enseigne"><small>MINISTÈRE DU BUDGET ET DES COMPTES PUBLICS</small>
+            DIRECTION GÉNÉRALE DU BUDGET ET DES FINANCES PUBLIQUES
+            <img height="74" src="img/Sceau-du-Gabon_1.png" alt="sceau du gabon">
+        </h1>
+    </div>
+</header>
 <div class="container">
     <div id="main-carousel" class="owl-carousel owl-theme carousel">
         <div class="slide"><span class="id">1</span></div>
