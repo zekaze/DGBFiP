@@ -75,8 +75,7 @@ footer {
 /*carousel*/
 .carousel .slide {
   width: 100%;
-  height: 500px;
-  background-color: #60655b;
+  background-color: #fff;
   position: relative; }
 .carousel .id {
   font-size: 45px;
@@ -90,7 +89,10 @@ footer {
   top: 50%;
   -webkit-transform: translate(-50%, -50%); }
 
-#instructions {
+#main-carousel {
+  height: 400px; }
+
+.instructions {
   padding: 15px;
   margin: 20px 0;
   background-color: #7fcfc6;
@@ -110,7 +112,7 @@ footer {
     font-weight: normal; }
 
 .submit-button {
-  display: inline-block;
+  display: block;
   border-radius: 3px;
   width: auto;
   margin: 0 auto;
@@ -119,5 +121,16 @@ footer {
   border: none;
   padding: 8px 60px;
   font-size: 16px; }
+
+.circle-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: solid 1px #177699;
+  border-radius: 100%;
+  color: #177699;
+  margin: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
