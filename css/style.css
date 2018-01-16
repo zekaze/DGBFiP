@@ -33,12 +33,16 @@ footer {
   padding: 0;
   color: #fff; }
 
-.h2 {
+.h2,
+.h3 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   color: #177699;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
+
+.h3 {
+  text-align: left; }
 
 .section {
   background-color: #fff;
@@ -72,11 +76,33 @@ footer {
   top: 0;
   box-shadow: 0 12px #ffdb20,0 24px #006ab0; }
 
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms; }
+
+.animate-out {
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms; }
+
 /*carousel*/
 .carousel .slide {
   width: 100%;
-  background-color: #fff;
-  position: relative; }
+  height: 500px;
+  position: relative;
+  overflow: hidden; }
+  .carousel .slide .headline {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #393939;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 40px 20px 20px;
+    -webkit-box-shadow: inset 8px 0px #177699;
+    -moz-box-shadow: inset 8px 0px #177699;
+    box-shadow: inset 8px 0px #177699; }
 .carousel .id {
   font-size: 45px;
   font-weight: 900;
@@ -90,13 +116,10 @@ footer {
   -webkit-transform: translate(-50%, -50%); }
 
 #main-carousel {
-  height: 400px; }
+  margin-bottom: 50px; }
 
 .instructions {
-  padding: 15px;
-  margin: 20px 0;
-  background-color: #7fcfc6;
-  border-radius: 3px; }
+  margin: 10px 0 40px; }
 
 .form-input {
   display: block; }
@@ -124,13 +147,17 @@ footer {
 
 .circle-icon {
   display: inline-block;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border: solid 1px #177699;
   border-radius: 100%;
   color: #177699;
-  margin: 20px 0; }
+  margin: 5px 15px 5px 0; }
+
+.flex-row {
+  display: flex;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */

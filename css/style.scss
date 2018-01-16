@@ -2,12 +2,16 @@
 @import "general";
 @import "mixins";
 
-.h2{
+.h2,
+.h3{
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   color: $color_primary;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+.h3{
+  text-align: left;
 }
 
 .section{
@@ -46,12 +50,39 @@
   box-shadow: 0 12px #ffdb20,0 24px #006ab0;
 }
 
+.animated  {
+  -webkit-animation-duration : 3s  ;
+  animation-duration : 3s  ;
+
+  -webkit-animation-delay : 500ms  ;
+  animation-delay : 500ms  ;
+}
+
+.animate-out {
+  -webkit-animation-delay : 0ms  ;
+  animation-delay : 0ms  ;
+}
+
 /*carousel*/
 .carousel{
   .slide{
     width: 100%;
-    background-color: #fff;
+    height: 500px;
     position: relative;
+    overflow: hidden;
+
+    .headline{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: #393939;
+      background-color: rgba(#fff, 0.8);
+      width: 100%;
+      padding: 40px 20px 20px;
+      -webkit-box-shadow: inset 8px 0px  $color_primary;
+      -moz-box-shadow: inset 8px 0px  $color_primary;
+      box-shadow: inset 8px 0px  $color_primary;
+    }
   }
   .id{
     font-size: 45px;
@@ -68,14 +99,11 @@
 }
 
 #main-carousel{
-  height: 400px;
+  margin-bottom: 50px;
 }
 
 .instructions{
-  padding: 15px;
-  margin: 20px 0;
-  background-color: $color_secondary;
-  border-radius: 3px;
+  margin: 10px 0 40px;
 }
 
 .form-input{
@@ -107,12 +135,17 @@
 }
 .circle-icon{
   display: inline-block;
-  width: 60px; height: 60px;
-  line-height: 60px;
+  width: 50px; height: 50px;
+  line-height: 50px;
   text-align: center;
   border: solid 1px $color_primary;
   border-radius: 100%;
   color: $color_primary;
-  margin:20px 0;
+  margin:5px 15px 5px 0;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
 }
 @import "responsive";
