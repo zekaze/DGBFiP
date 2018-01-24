@@ -27,88 +27,76 @@
     </div>
 </header>
 <div class="container section">
-    <div id="main-carousel" class="owl-carousel owl-theme carousel" style="background-image: url('img/office-phone.jpeg'); background-size: cover; background-position: center center">
-        <div class="slide">
-            <span class="headline" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-        </div>
-        <div class="slide">
-            <span class="headline" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Amet consectetur cum debitis dignissimos</span>
-        </div>
-        <div class="slide">
-            <span class="headline" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Dolore est hic mollitia numquam omnis possimus praesentium</span>
-        </div>
-        <div class="slide">
-            <span class="headline" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Quae quis ratione rem sed sint suscipit vel voluptate!</span>
-        </div>
-    </div>
+    <div class="form-background" style="background-image: url('img/office-phone.jpeg')">
+        <div class="form-section">
+            <h2 class="h2">Titre de section</h2>
+            <div class="instructions">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor eligendi iste laborum quae quo saepe voluptates? Autem beatae consectetur dicta eaque enim, illo iste, molestias omnis, perferendis sint tenetur!</div>
 
-    <h2 class="h2">Titre de section</h2>
-    <div class="instructions">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor eligendi iste laborum quae quo saepe voluptates? Autem beatae consectetur dicta eaque enim, illo iste, molestias omnis, perferendis sint tenetur!</div>
-
-    <div class="row">
-        <div class="col-sm-6">
-            <div id="formulaire">
-                <form action="#">
-                    <label class="form-input">
-                        <span class="input-label">Nom de l'agent</span>
-                        <input type="text" required>
-                    </label>
-                    <div class="row">
-                        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="formulaire">
+                        <form action="#">
                             <label class="form-input">
-                                <span class="input-label">Matricule</span>
+                                <span class="input-label">Nom de l'agent</span>
                                 <input type="text" required>
                             </label>
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-input">
-                                <span class="input-label">Contact</span>
-                                <input type="text" required>
-                            </label>
-                        </div>
-                    </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label class="form-input">
+                                        <span class="input-label">Matricule</span>
+                                        <input type="text" required>
+                                    </label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-input">
+                                        <span class="input-label">Contact</span>
+                                        <input type="text" required>
+                                    </label>
+                                </div>
+                            </div>
 
-                    <label class="form-input">
-                        <span class="input-label">Nom de direction</span>
-                        <select name="direction" id="direction">
-                            <option value="">Option 1</option>
-                            <option value="">Option 2</option>
-                            <option value="">Option 3</option>
-                            <option value="">Option 4</option>
-                        </select>
-                    </label>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <!--<div class="g-recaptcha" data-sitekey="6LfbbyYTAAAAAAAKzkEp7SIBdZHfbTBdneM12k9O"></div>-->
+                            <label class="form-input">
+                                <span class="input-label">Nom de direction</span>
+                                <select name="direction" id="direction">
+                                    <option value="">Option 1</option>
+                                    <option value="">Option 2</option>
+                                    <option value="">Option 3</option>
+                                    <option value="">Option 4</option>
+                                </select>
+                            </label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!--<div class="g-recaptcha" data-sitekey="6LfbbyYTAAAAAAAKzkEp7SIBdZHfbTBdneM12k9O"></div>-->
+                                </div>
+                                <div class="col-sm-6">
+                                    <button class="submit-button">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="h3">Vous pouvez aussi</div>
+                    <div class="flex-row">
+                        <div class="flex-col small-col">
+                            <i class="circle-icon fa fa-phone fa-3x"></i>
                         </div>
-                        <div class="col-sm-6">
-                            <button class="submit-button">Envoyer</button>
+                        <div class="flex-col large-col">
+                            Nous contacter au 01 02 03 04
                         </div>
                     </div>
-                </form>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="h3">Vous pouvez aussi</div>
-            <div class="flex-row">
-                <div class="flex-col small-col">
-                    <i class="circle-icon fa fa-phone fa-3x"></i>
-                </div>
-                <div class="flex-col large-col">
-                    Nous contacter au 01 02 03 04
-                </div>
-            </div>
-            <div class="flex-row">
-                <div class="flex-col small-col">
-                    <i class="circle-icon fa fa-building fa-2x"></i>
-                </div>
-                <div class="flex-col large-col">
-                    Vous présenter au Ministère du Budget et des Finances Publiques, bureau XXX
+                    <div class="flex-row">
+                        <div class="flex-col small-col">
+                            <i class="circle-icon fa fa-building fa-2x"></i>
+                        </div>
+                        <div class="flex-col large-col">
+                            Vous présenter au Ministère du Budget et des Finances Publiques, bureau XXX
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
 
 <footer>

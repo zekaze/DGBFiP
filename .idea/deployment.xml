@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Formulaire contact" preserveTimestamps="false" uploadOnCheckin="9436cbe5-679c-467b-91c0-167c258fade7">
+    <serverData>
+      <paths name="Formulaire DGBFiP">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Formulaire contact">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="Formulaire DGBFiP" />
+  </component>
+</project>

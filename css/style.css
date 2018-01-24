@@ -13,7 +13,6 @@
   bottom: 0; }
 
 body {
-  position: relative;
   padding-bottom: 60px;
   min-height: 100%;
   font-family: "Roboto", sans-serif !important;
@@ -47,7 +46,7 @@ footer {
 .section {
   background-color: #fff;
   padding-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   border: solid 1px #D5D5D5; }
 
 #enseigne {
@@ -86,34 +85,18 @@ footer {
   -webkit-animation-delay: 0ms;
   animation-delay: 0ms; }
 
-/*carousel*/
-.carousel .slide {
-  width: 100%;
-  height: 500px;
+/*Form background*/
+.form-background {
   position: relative;
-  overflow: hidden; }
-  .carousel .slide .headline {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    color: #393939;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    padding: 40px 20px 20px;
-    -webkit-box-shadow: inset 8px 0px #177699;
-    -moz-box-shadow: inset 8px 0px #177699;
-    box-shadow: inset 8px 0px #177699; }
-.carousel .id {
-  font-size: 45px;
-  font-weight: 900;
-  color: #fff;
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%); }
+  padding: 20px 0;
+  background-size: cover;
+  background-position: center center; }
+  .form-background .form-section {
+    position: relative;
+    width: 95%;
+    padding: 20px 15px 30px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7); }
 
 #main-carousel {
   margin-bottom: 50px; }
