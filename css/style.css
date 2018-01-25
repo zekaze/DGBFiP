@@ -12,7 +12,12 @@
   transform: translate(-50%, 0);
   bottom: 0; }
 
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
 body {
+  position: relative;
   padding-bottom: 60px;
   min-height: 100%;
   font-family: "Roboto", sans-serif !important;
@@ -142,12 +147,5 @@ footer {
 .flex-row {
   display: flex;
   align-items: center; }
-
-@media (max-width: 767px) {
-  body {
-    padding: 0; }
-
-  footer {
-    position: relative; } }
 
 /*# sourceMappingURL=style.css.map */
